@@ -1,0 +1,22 @@
+{
+    "name": "natanael/validations",
+    "description": "Validation For User Exist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Natanael Kristiawan",
+            "email": "natanaelkristiawan@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Validations\\": "src"
+        },
+        "classmap": [ "src" ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php-curl-class/php-curl-class": "^8.8"
+    }
+}
