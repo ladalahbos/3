@@ -1,0 +1,26 @@
+{
+  "config": {
+    "vendor-dir": "bitswift"
+  },
+  "require": {
+    "symfony/polyfill-php72": "1.11.0",
+    "symfony/polyfill-mbstring": "1.11.0",
+    "symfony/polyfill-intl-idn": "1.11.0",
+    "symfony/polyfill-iconv": "1.11.0",
+    "swiftmailer/swiftmailer": "6.2.1",
+    "egulias/email-validator": "2.1.8",
+    "doctrine/lexer": "1.0.1",
+    "blake-gardner/mac-address": "^2.1",
+    "adhocore/cli": "^0.8.3",
+    "php-school/cli-menu": "^4.0"
+  },
+  "repositories" : [
+    {
+      "type"      : "path",
+      "url"       : "bitswift/validations",
+      "options"   : {
+        "symlink" : true
+      }
+    }
+  ]
+}

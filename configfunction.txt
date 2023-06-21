@@ -1,0 +1,87 @@
+.:= HOW TO USE RG43SENDER =:.
+CONFIG FUNCTION : 
+bitku_base_mode : Send with mode phpmailer/swiftmailer/bitmailer
+m1 = phpmailer
+m2 = swiftmailer
+m3 = bitmailer
+----------------------------------------------------------------------
+bitku_doublesend : Send 2x to 1email
+bitku_max : 1-499 , If you use To mode only can send max 1, Bcc up to 499List/send
+bitku_delay : Delay per send
+bitku_priority : Priority message
+rg43s_headermessage : Untuk menggunakan header mailer isi true, jika tidak false
+rg43s_debugsending : Untuk melihat details sending isi yes, jika simple no
+========================
+PHPMAILER MODE PRIORITY
+PRIORITY HIGH = 1
+PRIORITY NORMAL = 3
+PRIORITY LOW = 5
+========================
+SWIFTMAILER MODE PRIORITY
+PRIORITY HIGHEST = 1
+PRIORITY HIGH = 2
+PRIORITY NORMAL = 3
+PRIORITY LOW = 4
+PRIORITY LOWEST = 5
+========================
+BITMAILER MODE PRIORITY
+PRIORITY HIGH = 1
+PRIORITY NORMAL = 3
+PRIORITY LOW = 5
+----------------------------------------------------------------------
+.:= RANDOM FUNCTION =:.
+##email## (Tag email Khusus Mode To Only)
+##randomnumber##
+##randomstring##
+##randomstring1##
+##randomstring2##
+##randomstring3##
+##randomstring4##
+##randomstringlower##
+##randomstringupper##
+##date## (Date format 1)
+##date1## (Date format 2)
+##date2## (Date format 3)
+##date3## (Date format 4)
+##date4## (Date format 5)
+##domainsmtp## (From Email Only)
+##shortlink## (On letter Only)
+##randomip## (random IP)
+##randomos## (random operating system)
+##randomdevice## (random device)
+##randomcountry## (random country)
+##md5micro##
+##md5microupper##
+##md5microlower##
+##specialnumber##
+##generateid##
+##randomdomains##
+##randomdomains2##
+##randomdomains3##
+##randomsha1##
+##randombin2hex##
+
+.:= RANDOM CUSTOM FUNCTION =:.
+Random custom example :
+
+##type_format_length##  -> Format wajib dikasih _ !
+
+Type :
+- number  =  Generate untuk number only!
+- mixed   =  Generate untuk number & alphabet/huruf only!
+- string  =  Generate untuk alphabet/huruf only!
+
+Format :
+- upper   =  Format kalimat alphabet/huruf menjadi kapital/besar!
+- lower   =  Format kalimat alphabet/huruf menjadi kecil!
+- normal  =  Format kalimat alphabet/huruf menjadi acak(kapital/kecil)!
+
+Length :
+- 1-9999 Total tag alphabet/huruf/number !
+
+Example :
+
+##number_mixed_5##  = 19428
+##mixed_normal_5##  = x8jn7
+##mixed_upper_6## = V7K96N
+##string_lower_5## = pzjwn

@@ -1,0 +1,13 @@
+HOW TO GET DEVICE ID RG43 SENDER (English)
+1. run : php device.php
+2. and then copy result and go to rg43s.id on menu RG43S Management - Sender
+3. Add white list your device id result and click save
+4. copy the Public Key + Private Key to Config.php on the sender's file
+5. Have to enjoy use it!
+
+CARA MENDAPATKAN DEVICE ID RG43 SENDER (Indonesia)
+1. Jalankan terminal : php device.php
+2. dan copy result dari device.php tersebut lalu pergi ke rg43s.id dan pilih menu RG43S Management - Sender
+3. tambahkan white list device id mu dan klik save
+4. copy Public Key + Private Key mu dan pasang di Config.php di file sender
+5. Selamat menggunakan!
